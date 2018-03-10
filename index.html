@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Trivia Game</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    
+</head>
+
+<body>
+    <!-- Jumbotron -->
+    <div id="jumbotron">
+        <div class="jumbotron">
+            <h1 id="trivia">Trivia Game!</h1>
+            <p>Answer all the questions you can within the time limit!</p>
+            <p>
+                <a class="btn btn-primary btn-lg" role="button" id="start">Start!</a>
+            </p>
+        </div>
+    </div>
+
+    <!-- Timer Panel -->
+    <div class="panel panel-default" id="timer-div">
+        <div class="panel-body">
+            <h1 id="timer">30</h1>
+        </div>
+    </div>
+
+    <!-- Question panels -->
+    <div id="questions">
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h3 class="panel-title" class="question">What is 2x2?</h3>
+            </div>
+            <div class="panel-body">
+                <ul class="answers">
+                    <!-- A is correct -->
+                    <input type="radio" name="q1" value="a" id="q1a" class="answer">
+                    <label for="q1a">4</label>
+
+                    <input type="radio" name="q1" value="b" id="q1b" class="answer">
+                    <label for="q1b">2</label>
+
+                    <input type="radio" name="q1" value="c" id="q1c" class="answer">
+                    <label for="q1c">3</label>
+
+                    <input type="radio" name="q1" value="d" id="q1d" class="answer">
+                    <label for="q1d">8</label>
+
+            </div>
+        </div>
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h3 class="panel-title" class="question">Who was the first president of the United States of America?</h3>
+            </div>
+            <div class="panel-body">
+                <ul class="answers">
+                    <input type="radio" name="q2" value="a" id="q2a" class="answer">
+                    <label for="q2a">Abraham Lincoln</label>
+                    
+                    <input type="radio" name="q2" value="b" id="q2b" class="answer">
+                    <label for="q2b">John F Kennedy</label>
+                    <!-- C is correct -->
+                    <input type="radio" name="q2" value="c" id="q2c" class="answer">
+                    <label for="q2c">George Washington</label>
+                    
+                    <input type="radio" name="q2" value="d" id="q2d" class="answer"> 
+                    <label for="q2d">Benjamin Franklin</label>
+                    
+            </div>
+        </div>
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h3 class="panel-title" class="question">Who wrote The Iliad and the Odessy?</h3>
+            </div>
+            <div class="panel-body">
+                <ul class="answers">
+                    <input type="radio" name="q3" value="a" id="q3a" class="answer">
+                    <label for="q3a">Virgil</label>
+                    
+                    <input type="radio" name="q3" value="b" id="q3b" class="answer"> 
+                    <label for="q3b">Plato</label>
+                    
+                    <input type="radio" name="q3" value="c" id="q3c" class="answer">
+                    <label for="q3c">Socrates</label>
+                    <!-- D is correct -->
+                    <input type="radio" name="q3" value="d" id="q3d" class="answer">
+                    <label for="q3d">Homer</label>
+                    
+            </div>
+        </div>
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h3 class="panel-title" class="question">Who wrote the Aneid?</h3>
+            </div>
+            <div class="panel-body">
+                <ul class="answers">
+                    <!-- A is correct -->
+                    <input type="radio" name="q4" value="a" id="q4a" class="answer">
+                    <label for="q4a">Virgil</label>
+                    
+                    <input type="radio" name="q4" value="b" id="q4b" class="answer">
+                    <label for="q4b">Plato</label>
+                   
+                    <input type="radio" name="q4" value="c" id="q4c" class="answer">
+                    <label for="q4c">Socrates</label>
+                    
+                    <input type="radio" name="q4" value="d" id="q4d" class="answer">
+                    <label for="q4d">Homer</label>
+                    
+            </div>
+        </div>
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h3 class="panel-title" class="question">In what country does the Eifle Tower reside?</h3>
+            </div>
+            <div class="panel-body">
+                <ul class="answers">
+                    <input type="radio" name="q5" value="a" id="q5a" class="answer">
+                    <label for="q5a">England</label>
+                    <!-- B is correct -->
+                    <input type="radio" name="q5" value="b" id="q5b" class="answer">
+                    <label for="q5b">France</label>
+                    
+                    <input type="radio" name="q5" value="c" id="q5c" class="answer">
+                    <label for="q5c">Italy</label>
+                    
+                    <input type="radio" name="q5" value="d" id="q5d" class="answer">
+                    <label for="q5d">Germany</label>
+                    
+            </div>
+        </div>
+    </div>
+<div id="buttons">
+    <a class="btn btn-primary btn-lg" role="button" id="submit">Submit!</a>
+    <a class="btn btn-primary btn-lg" role="button" id="restart">Restart!</a>
+</div>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.2.0.js"></script>
+    <script type="text/javascript" src="assets/javascript/app.js"></script>
+
+</body>
+
+</html>
+
+<!-- things left to do: -->
+
+<!-- css styling -->
+<!-- get actual questions and answers -->
+
