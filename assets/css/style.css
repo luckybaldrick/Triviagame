@@ -1,24 +1,48 @@
 #timer {
- font-size: 50px;
+    font-size: 50px;
+    font-family: 'Ubuntu', sans-serif;
 }
+
 .jumbotron {
     text-align: center;
 }
+
 #trivia {
     font-size: 32px;
     padding: 10px;
+    font-weight: bold;
 }
+
 #timer-div {
     text-align: center;
+    margin-left: 8%;
+    margin-right: 8%;
 }
+
 #questions {
     text-align: center;
+    margin-left: 8%;
+    margin-right: 8%;
+    font-family: 'Roboto', sans-serif;
 }
+
 #answer {
     padding-left: 10px;
     padding-right: 10px;
 }
+
 #buttons {
     text-align: center;
     margin-bottom: 20px;
+}
+
+body {
+    background-image: url("../images/background.jpg")
+}
+
+#jumbotron {
+    margin-left: 8%;
+    margin-right: 8%;
+    margin-top: 20px;
+    font-family: 'Muli', sans-serif;
 }
